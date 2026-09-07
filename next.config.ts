@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/digital-experience-courses",
+  assetPrefix: "/digital-experience-courses/",
 };
 
 export default nextConfig;
